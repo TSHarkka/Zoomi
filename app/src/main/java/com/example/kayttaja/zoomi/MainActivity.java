@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         menuList = (ListView) findViewById(R.id.menuList);
 
         String[] val_arvot = new String[] {
-                "ScrollView", "ImageView" , "Web", "Lopeta sovellus"
+                "Scrollview", "ImageView" , "Web", "Lopeta sovellus"
         };
 
         ArrayAdapter<String> oma_adapteri = new ArrayAdapter<>
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent akt = null;
                 if (kom_paikka == 0) {
-                    akt = new Intent(MainActivity.this, ScrollView.class);
+                    akt = new Intent(MainActivity.this, Scrollview.class);
                     startActivity(akt);
                 } else if (kom_paikka == 1) {
                     akt = new Intent(MainActivity.this, ImageManipulation.class);

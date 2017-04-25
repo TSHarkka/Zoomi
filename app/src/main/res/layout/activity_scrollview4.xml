@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kayttaja.zoomi.Scrollview2">
+    tools:context="com.example.kayttaja.zoomi.Scrollview4">
 
     <Button
-        android:id="@+id/player1Btn"
-        android:onClick="navToPlayer1"
+        android:id="@+id/player2Btn"
+        android:onClick="navToPlayer2"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:text="Button"
@@ -31,8 +31,8 @@
         android:layout_marginStart="16dp" />
 
     <Button
-        android:id="@+id/player4Btn"
-        android:onClick="navToPlayer4"
+        android:id="@+id/player1Btn"
+        android:onClick="navToPlayer1"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="244dp"
@@ -67,13 +67,13 @@
                 android:id="@+id/playerPic1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/reus" />
+                app:srcCompat="@drawable/mor" />
 
             <TextView
                 android:id="@+id/playerTxt1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Shinji Kagawa" />
+                android:text="Emre Mor" />
 
             <TextView
                 android:id="@+id/playerTxt2"

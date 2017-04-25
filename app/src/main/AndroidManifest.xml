@@ -16,10 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScrollView" />
+        <activity android:name=".Scrollview" />
         <activity android:name=".ImageManipulation" />
         <activity android:name=".Web" />
-        <activity android:name=".Scrollview2"></activity>
+        <activity android:name=".Scrollview2" />
+        <activity android:name=".Scrollview3" />
+        <activity android:name=".Scrollview4"></activity>
     </application>
 
 </manifest>

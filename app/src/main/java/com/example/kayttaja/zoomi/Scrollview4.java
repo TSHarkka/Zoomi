@@ -8,8 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Scrollview2 extends AppCompatActivity {
-
+public class Scrollview4 extends AppCompatActivity {
     ImageView playerPic1;
     TextView playerTxt1;
     TextView playerTxt2;
@@ -20,7 +19,7 @@ public class Scrollview2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrollview2);
+        setContentView(R.layout.activity_scrollview4);
 
         playerPic1 = (ImageView) findViewById(R.id.playerPic1);
         playerTxt1 = (TextView) findViewById(R.id.playerTxt1);
@@ -31,18 +30,18 @@ public class Scrollview2 extends AppCompatActivity {
 
     }
     public void navToPlayer2(View view) {
-        Intent intentToScrollview2= new Intent(this, Scrollview3.class);
-        Scrollview2.this.startActivity(intentToScrollview2);
+        Intent intentToScrollview2= new Intent(this, Scrollview2.class);
+        Scrollview4.this.startActivity(intentToScrollview2);
     }
 
     public void navToPlayer3(View view) {
-        Intent intentToScrollview3 = new Intent(this, Scrollview4.class);
-        Scrollview2.this.startActivity(intentToScrollview3);
+        Intent intentToScrollview3 = new Intent(this, Scrollview3.class);
+        Scrollview4.this.startActivity(intentToScrollview3);
     }
 
     public void navToPlayer4(View view) {
         Intent akt=null;
-        akt = new Intent(Scrollview2.this, Scrollview.class);
+        akt = new Intent(Scrollview4.this, Scrollview.class);
         startActivity(akt);
     }
 }
