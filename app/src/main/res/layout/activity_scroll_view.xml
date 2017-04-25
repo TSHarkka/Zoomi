@@ -43,6 +43,7 @@
         android:layout_marginStart="244dp" />
 
     <ScrollView
+        style="@style/scrollbar_shape_style"
         android:layout_width="343dp"
         android:layout_height="414dp"
         app:layout_constraintTop_toTopOf="parent"
