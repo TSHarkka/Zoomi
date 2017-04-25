@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kayttaja.zoomi">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -16,12 +17,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Scrollview" />
+        <activity
+            android:name=".Scrollview"
+            android:launchMode="singleTask" />
         <activity android:name=".ImageManipulation" />
         <activity android:name=".Web" />
-        <activity android:name=".Scrollview2" />
-        <activity android:name=".Scrollview3" />
-        <activity android:name=".Scrollview4"></activity>
+        <activity
+            android:name=".Scrollview2"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Scrollview3"
+            android:launchMode="singleTask" />
+        <activity android:name=".Scrollview4">
+            android:launchMode="singleTask"
+        </activity>
+        <activity android:name=".WenViewActivity"></activity>
     </application>
 
 </manifest>
